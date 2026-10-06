@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Database & Uploads
+*.db
+*.sqlite3
+uploads/*
+!uploads/.gitkeep
+
+# Environment files
+.env
+
+# IDE / System files
+.DS_Store
+.idea/
+.vscode/
